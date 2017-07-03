@@ -1,7 +1,7 @@
 // @flow
 
-import React, { Component, PropTypes, ViewPropTypes } from 'react';
-import { processColor, requireNativeComponent, PointPropType, StyleSheet, View } from 'react-native';
+import React, { Component, PropTypes } from 'react';
+import { processColor, requireNativeComponent, PointPropType, StyleSheet, View, ViewPropTypes } from 'react-native';
 const deprecatedPropType = require('react-native/Libraries/Utilities/deprecatedPropType.js');
 
 const convertPoint = (name, point) => {
